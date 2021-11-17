@@ -1,0 +1,10 @@
+"token"="ODg2MjU3MjgwNjYyNzgxOTYy.YTy9aQ.fg_W9847K9EWX7hExDWSOHWqB50" # the bot's token
+"prefix"="=" # prefix used to denote commands
+
+[music]
+# Options for the music commands
+"max_volume"=250 # Max audio volume. Set to -1 for unlimited.
+"vote_skip"=true # whether vote-skipping is enabled
+"vote_skip_ratio"=0.1 # the minimum ratio of votes needed to skip a song
+[tips]
+"github_url"="https://github.com/joek13/py-music-bot"

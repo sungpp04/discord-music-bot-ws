@@ -1,0 +1,357 @@
+[2021-11-16 13:14:10,344] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 13:14:10,884] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 13:14:11,164] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-6mgz",{"micros":96717,"calls":["discord-sessions-green-prd-2-58",{"micros":86886,"calls":["start_session",{"micros":37587,"calls":["api-prd-main-xvjt",{"micros":33689,"calls":["get_user",{"micros":4287},"add_authorized_ip",{"micros":2046},"get_guilds",{"micros":4971},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22431,"calls":[]}]}]}] (Session ID: 615b65b4c27fc835582f31c1fdf34273).
+[2021-11-16 13:14:13,187] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 13:15:16,143] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-11-16 13:15:16,144] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\git-MB-3_s6QiPJ\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\sungp\OneDrive\官帕 拳搁\git-MB\py-music-bot\musicbot\cogs\music.py", line 264, in play
+    client = await channel.connect()
+  File "C:\Users\sungp\.virtualenvs\git-MB-3_s6QiPJ\lib\site-packages\discord\abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "C:\Users\sungp\.virtualenvs\git-MB-3_s6QiPJ\lib\site-packages\discord\voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+
+[2021-11-16 13:16:53,842] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-11-16 13:16:53,843] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\git-MB-3_s6QiPJ\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\sungp\OneDrive\官帕 拳搁\git-MB\py-music-bot\musicbot\cogs\music.py", line 264, in play
+    client = await channel.connect()
+  File "C:\Users\sungp\.virtualenvs\git-MB-3_s6QiPJ\lib\site-packages\discord\abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "C:\Users\sungp\.virtualenvs\git-MB-3_s6QiPJ\lib\site-packages\discord\voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+
+[2021-11-16 13:25:06,418] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 13:25:06,938] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 13:25:07,183] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-g6qb",{"micros":56831,"calls":["discord-sessions-green-prd-2-41",{"micros":50022,"calls":["start_session",{"micros":32861,"calls":["api-prd-main-c4jw",{"micros":29717,"calls":["get_user",{"micros":2601},"add_authorized_ip",{"micros":1191},"get_guilds",{"micros":4334},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":13966,"calls":[]}]}]}] (Session ID: b9bf7ea9427e9d35a56f61590b20a525).
+[2021-11-16 13:25:09,199] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 13:25:17,677] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-11-16 13:25:17,679] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\sungp\OneDrive\官帕 拳搁\git-MB\py-music-bot\musicbot\cogs\music.py", line 264, in play
+    client = await channel.connect()
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+
+[2021-11-16 13:26:43,061] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 13:26:43,556] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 13:26:43,803] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-3518",{"micros":59109,"calls":["discord-sessions-green-prd-2-129",{"micros":58373,"calls":["start_session",{"micros":35514,"calls":["api-prd-main-h24r",{"micros":31295,"calls":["get_user",{"micros":5660},"add_authorized_ip",{"micros":1439},"get_guilds",{"micros":6672},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":10,"calls":[]},"presence_connect",{"micros":5280,"calls":[]}]}]}] (Session ID: c1b960977ad673db43127205d88a6be6).
+[2021-11-16 13:26:45,826] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 13:26:50,605] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 13:26:50,606] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 13:26:51,560] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 13:26:51,621] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 13:26:51,626] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 13:26:56,130] INFO [root.play:268] Now playing '采 辨 (Flower Road)'
+[2021-11-16 13:30:44,962] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 1900.
+[2021-11-16 13:30:44,963] INFO [discord.player.cleanup:170] ffmpeg process 1900 successfully terminated with return code of 0.
+[2021-11-16 13:30:44,965] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 576813977678381090 (Guild ID 576813977363939340)
+[2021-11-16 13:30:44,965] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-16 13:31:11,282] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 13:31:11,282] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 13:31:11,667] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 13:31:11,713] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 13:31:11,721] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 13:31:13,289] INFO [root.play:268] Now playing '采 辨 (Flower Road)'
+[2021-11-16 13:31:23,920] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 8252.
+[2021-11-16 13:31:23,921] INFO [discord.player.cleanup:166] ffmpeg process 8252 has not terminated. Waiting to terminate...
+[2021-11-16 13:31:23,938] INFO [discord.player.cleanup:168] ffmpeg process 8252 should have terminated with a return code of 1.
+[2021-11-16 13:31:23,939] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 576813977678381090 (Guild ID 576813977363939340)
+[2021-11-16 13:31:23,940] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-16 13:32:40,934] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 13:32:40,935] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 13:32:41,315] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 13:32:41,374] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 13:32:41,379] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 13:32:42,928] INFO [root.play:268] Now playing 'The Kid LAROI, Justin Bieber - Stay (Lyrics)'
+[2021-11-16 13:35:03,441] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 19528.
+[2021-11-16 13:35:03,441] INFO [discord.player.cleanup:170] ffmpeg process 19528 successfully terminated with return code of 0.
+[2021-11-16 13:49:25,421] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 13:49:25,977] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 13:49:26,227] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-mn84",{"micros":61742,"calls":["discord-sessions-green-prd-2-54",{"micros":60631,"calls":["start_session",{"micros":41583,"calls":["api-prd-main-d79p",{"micros":38156,"calls":["get_user",{"micros":6000},"add_authorized_ip",{"micros":4711},"get_guilds",{"micros":5584},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7903,"calls":[]}]}]}] (Session ID: 27ad0fd1c639d0c81983fa2249e5c13d).
+[2021-11-16 13:49:28,256] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 13:49:43,377] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 13:49:43,377] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 13:49:44,307] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 13:49:44,360] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 13:49:44,365] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 13:49:46,469] INFO [root.play:260] Now playing 'BIGBANG - 'FLOWER ROAD (采辨)' Lyrics [Han-Rom-Eng]'
+[2021-11-16 13:53:31,289] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 22448.
+[2021-11-16 13:53:31,290] INFO [discord.player.cleanup:170] ffmpeg process 22448 successfully terminated with return code of 0.
+[2021-11-16 13:53:31,291] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 576813977678381090 (Guild ID 576813977363939340)
+[2021-11-16 13:53:31,292] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-16 13:54:04,306] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 13:54:04,839] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 13:54:05,148] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-0v55",{"micros":119961,"calls":["discord-sessions-green-prd-2-57",{"micros":119179,"calls":["start_session",{"micros":94103,"calls":["api-prd-main-hjcw",{"micros":86393,"calls":["get_user",{"micros":8407},"add_authorized_ip",{"micros":4291},"get_guilds",{"micros":6524},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":21391,"calls":[]}]}]}] (Session ID: 2161e1d06f50cb4fefcb5715e6c83d35).
+[2021-11-16 13:54:07,165] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 13:54:19,043] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 13:54:19,043] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 13:54:19,422] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 13:54:19,476] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 13:54:19,481] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 13:54:21,063] INFO [root.p:260] Now playing 'BIGBANG - 'FLOWER ROAD (采辨)' Lyrics [Han-Rom-Eng]'
+[2021-11-16 13:56:06,552] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 13:56:07,040] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 13:56:07,286] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-7g6p",{"micros":59700,"calls":["discord-sessions-green-prd-2-114",{"micros":58858,"calls":["start_session",{"micros":42870,"calls":["api-prd-main-sqrc",{"micros":39450,"calls":["get_user",{"micros":3515},"add_authorized_ip",{"micros":1467},"get_guilds",{"micros":6342},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6102,"calls":[]}]}]}] (Session ID: 2af9ca7f107892bee59eed0861bd918d).
+[2021-11-16 13:56:09,313] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:05:40,027] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:05:40,563] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:05:40,815] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-wwlc",{"micros":64394,"calls":["discord-sessions-green-prd-2-50",{"micros":63271,"calls":["start_session",{"micros":47973,"calls":["api-prd-main-sqrc",{"micros":44641,"calls":["get_user",{"micros":11569},"add_authorized_ip",{"micros":5572},"get_guilds",{"micros":4135},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1188,"calls":[]}]}]}] (Session ID: e553e350bf03f30806f5888166b24b01).
+[2021-11-16 14:05:42,835] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:16:54,840] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:16:55,352] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:16:55,630] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-sc60",{"micros":93031,"calls":["discord-sessions-green-prd-2-56",{"micros":92111,"calls":["start_session",{"micros":59532,"calls":["api-prd-main-9tp7",{"micros":55383,"calls":["get_user",{"micros":8893},"add_authorized_ip",{"micros":3406},"get_guilds",{"micros":3728},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":463,"calls":[]}]}]}] (Session ID: 0b13be274a66718c015cf2d1459df185).
+[2021-11-16 14:16:57,649] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:17:29,184] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:17:29,185] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 14:17:30,133] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 14:17:30,190] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 14:17:30,201] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 14:17:31,862] INFO [root.p:260] Now playing 'BIGBANG - 'FLOWER ROAD (采辨)' Lyrics [Han-Rom-Eng]'
+[2021-11-16 14:19:44,024] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:19:44,530] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:19:44,862] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-flg1",{"micros":143528,"calls":["discord-sessions-green-prd-2-89",{"micros":142686,"calls":["start_session",{"micros":117351,"calls":["api-prd-main-9gqp",{"micros":112685,"calls":["get_user",{"micros":11735},"add_authorized_ip",{"micros":7507},"get_guilds",{"micros":44104},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: dd874a551defe9530d277eaaa256cbb1).
+[2021-11-16 14:19:46,888] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:20:16,026] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:20:16,027] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 14:20:16,979] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1047.discord.media
+[2021-11-16 14:20:17,027] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 14:20:17,032] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 14:20:18,647] INFO [root.p:260] Now playing 'BIGBANG - 'FLOWER ROAD (采辨)' Lyrics [Han-Rom-Eng]'
+[2021-11-16 14:20:43,361] INFO [discord.voice_client.poll_voice_ws:426] Disconnected from voice by force... potentially reconnecting.
+[2021-11-16 14:20:43,361] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 2)
+[2021-11-16 14:21:04,561] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:21:04,561] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 14:21:04,952] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1104.discord.media
+[2021-11-16 14:21:05,035] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 14:21:05,042] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 14:21:06,672] INFO [root.p:260] Now playing 'BIGBANG - 'FLOWER ROAD (采辨)' Lyrics [Han-Rom-Eng]'
+[2021-11-16 14:21:42,134] WARNING [discord.gateway.run:135] Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2021-11-16 14:21:43,364] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 576813977678381090 (Guild ID 576813977363939340)
+[2021-11-16 14:21:43,365] INFO [discord.voice_client.poll_voice_ws:429] Reconnect was unsuccessful, disconnecting from voice normally...
+[2021-11-16 14:24:51,957] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 5680.
+[2021-11-16 14:24:51,957] INFO [discord.player.cleanup:170] ffmpeg process 5680 successfully terminated with return code of 0.
+[2021-11-16 14:24:51,959] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 569133679356674058 (Guild ID 524240094727766031)
+[2021-11-16 14:24:51,959] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-16 14:25:42,144] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:25:42,654] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:25:42,940] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-5d9q",{"micros":98943,"calls":["discord-sessions-green-prd-2-164",{"micros":98079,"calls":["start_session",{"micros":45448,"calls":["api-prd-main-f688",{"micros":37456,"calls":["get_user",{"micros":9069},"add_authorized_ip",{"micros":1553},"get_guilds",{"micros":4878},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":39977,"calls":[]}]}]}] (Session ID: d4c7ac01e477c7bce24fc7126736f682).
+[2021-11-16 14:25:44,963] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:26:31,233] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:26:31,740] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:26:31,994] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-xmx0",{"micros":66260,"calls":["discord-sessions-green-prd-2-169",{"micros":65434,"calls":["start_session",{"micros":36616,"calls":["api-prd-main-qfjm",{"micros":33365,"calls":["get_user",{"micros":3461},"add_authorized_ip",{"micros":3408},"get_guilds",{"micros":3276},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: dd71303a4ba05261d27f1b81c678d249).
+[2021-11-16 14:26:34,023] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:26:40,984] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:26:40,985] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 14:26:41,913] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1104.discord.media
+[2021-11-16 14:26:41,966] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 14:26:41,973] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 14:26:43,589] INFO [root.p:260] Now playing 'AKMU - '倡窍 (NAKKA) (with IU)' OFFICIAL VIDEO'
+[2021-11-16 14:30:33,523] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 20640.
+[2021-11-16 14:30:33,523] INFO [discord.player.cleanup:170] ffmpeg process 20640 successfully terminated with return code of 0.
+[2021-11-16 14:34:31,639] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 16456.
+[2021-11-16 14:34:31,639] INFO [discord.player.cleanup:170] ffmpeg process 16456 successfully terminated with return code of 0.
+[2021-11-16 14:34:31,641] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 569133679356674058 (Guild ID 524240094727766031)
+[2021-11-16 14:34:31,641] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-16 14:35:13,055] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:35:13,540] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:35:13,767] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-409b",{"micros":33662,"calls":["discord-sessions-green-prd-2-60",{"micros":32777,"calls":["start_session",{"micros":27099,"calls":["api-prd-main-8nfj",{"micros":24041,"calls":["get_user",{"micros":2457},"add_authorized_ip",{"micros":1318},"get_guilds",{"micros":3596},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 335621aa5c82ddf51762d35c89d5dd39).
+[2021-11-16 14:35:15,791] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:35:27,443] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:36:04,796] WARNING [discord.gateway.run:167] Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\sungp\OneDrive\官帕 拳搁\git-MB\py-music-bot\mb\__main__.py", line 20, in <module>
+    bot.run()
+  File "C:\Users\sungp\OneDrive\官帕 拳搁\git-MB\py-music-bot\mb\bot.py", line 35, in run
+    bot.run(cfg["token"])
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\client.py", line 713, in run
+    loop.run_forever()
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\ext\commands\bot.py", line 979, in on_message
+    await self.process_commands(message)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\ext\commands\bot.py", line 976, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\ext\commands\bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\ext\commands\core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\ext\commands\core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\sungp\OneDrive\官帕 拳搁\git-MB\py-music-bot\mb\cogs\music.py", line 256, in p
+    client = await channel.connect()
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\abc.py", line 1285, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\voice_client.py", line 329, in connect
+    log.info('Connecting to voice...')
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\logging\__init__.py", line 1442, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\logging\__init__.py", line 1585, in _log
+    self.handle(record)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\logging\__init__.py", line 1595, in handle
+    self.callHandlers(record)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\logging\__init__.py", line 1657, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+
+[2021-11-16 14:36:53,532] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:36:54,015] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:36:54,285] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-2dq5",{"micros":81184,"calls":["discord-sessions-green-prd-2-22",{"micros":80290,"calls":["start_session",{"micros":66077,"calls":["api-prd-main-78qv",{"micros":62577,"calls":["get_user",{"micros":4660},"add_authorized_ip",{"micros":2490},"get_guilds",{"micros":7355},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8934,"calls":[]}]}]}] (Session ID: 14a06e6d414a373883a612c15047f341).
+[2021-11-16 14:36:56,306] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:37:00,282] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:37:00,283] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 14:37:01,215] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1104.discord.media
+[2021-11-16 14:37:01,262] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 14:37:01,266] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 14:37:02,832] INFO [root.p:260] Now playing 'aespa 俊胶颇 'Savage' MV'
+[2021-11-16 14:38:26,473] INFO [discord.client.login:510] logging in using static token
+[2021-11-16 14:38:26,957] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-16 14:38:27,232] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-c894",{"micros":89859,"calls":["discord-sessions-green-prd-2-56",{"micros":89108,"calls":["start_session",{"micros":40541,"calls":["api-prd-main-2d14",{"micros":34196,"calls":["get_user",{"micros":4042},"add_authorized_ip",{"micros":1556},"get_guilds",{"micros":4912},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 1c23c9b0c1551025015fbc266b347b66).
+[2021-11-16 14:38:29,259] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-16 14:38:41,269] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-16 14:38:41,269] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-16 14:38:42,201] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1104.discord.media
+[2021-11-16 14:38:42,245] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-16 14:38:42,249] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-16 14:38:43,842] INFO [root.p:260] Now playing 'aenergy'
+[2021-11-16 14:41:09,682] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 13880.
+[2021-11-16 14:41:09,682] INFO [discord.player.cleanup:170] ffmpeg process 13880 successfully terminated with return code of 0.
+[2021-11-16 14:41:28,843] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 2068.
+[2021-11-16 14:41:28,843] INFO [discord.player.cleanup:166] ffmpeg process 2068 has not terminated. Waiting to terminate...
+[2021-11-16 14:41:28,862] INFO [discord.player.cleanup:168] ffmpeg process 2068 should have terminated with a return code of 1.
+[2021-11-16 14:44:59,592] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 13128.
+[2021-11-16 14:44:59,592] INFO [discord.player.cleanup:170] ffmpeg process 13128 successfully terminated with return code of 0.
+[2021-11-16 14:44:59,594] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 569133679356674058 (Guild ID 524240094727766031)
+[2021-11-16 14:44:59,595] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-17 10:07:20,952] INFO [discord.client.login:510] logging in using static token
+[2021-11-17 10:07:21,518] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-17 10:07:21,768] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-2dq5",{"micros":61406,"calls":["discord-sessions-green-prd-2-157",{"micros":60691,"calls":["start_session",{"micros":42394,"calls":["api-prd-main-5kc0",{"micros":37077,"calls":["get_user",{"micros":7172},"add_authorized_ip",{"micros":1745},"get_guilds",{"micros":3514},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":3128,"calls":[]}]}]}] (Session ID: a3aeca0fe31ea09159c9a9a4419eb1f1).
+[2021-11-17 10:07:23,786] INFO [root.on_ready:15] Logged in as 决 篮后
+[2021-11-17 10:07:38,210] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-11-17 10:07:38,210] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-11-17 10:07:38,588] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found south-korea1038.discord.media
+[2021-11-17 10:07:38,646] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-11-17 10:07:38,653] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-11-17 10:07:43,146] INFO [root.p:260] Now playing 'BIGBANG - 'FLOWER ROAD (采辨)' Lyrics [Han-Rom-Eng]'
+[2021-11-17 10:08:46,285] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 14272.
+[2021-11-17 10:08:46,285] INFO [discord.player.cleanup:166] ffmpeg process 14272 has not terminated. Waiting to terminate...
+[2021-11-17 10:08:46,304] INFO [discord.player.cleanup:168] ffmpeg process 14272 should have terminated with a return code of 1.
+[2021-11-17 10:12:41,899] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 7948.
+[2021-11-17 10:12:41,899] INFO [discord.player.cleanup:170] ffmpeg process 7948 successfully terminated with return code of 0.
+[2021-11-17 10:12:41,900] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 576814631851655184 (Guild ID 576813977363939340)
+[2021-11-17 10:12:41,901] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-11-17 14:32:36,425] INFO [discord.gateway.poll_event:573] Timed out receiving packet. Attempting a reconnect.
+[2021-11-17 14:32:36,621] INFO [discord.client.connect:568] Got a request to RESUME the websocket.
+[2021-11-17 14:32:36,628] ERROR [discord.client.connect:607] Attempting a reconnect in 0.60s
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\tasks.py", line 494, in wait_for
+    return fut.result()
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\http.py", line 192, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+[2021-11-17 14:32:38,580] ERROR [discord.client.connect:607] Attempting a reconnect in 2.95s
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\sungp\AppData\Local\Programs\Python\Python38\lib\asyncio\tasks.py", line 494, in wait_for
+    return fut.result()
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\discord\http.py", line 192, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\sungp\.virtualenvs\py-music-bot-ugYM_9nI\lib\site-packages\aiohttp\connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+[2021-11-17 14:32:42,350] INFO [discord.gateway.resume:417] Shard ID None has sent the RESUME payload.
+[2021-11-17 14:32:42,582] INFO [discord.gateway.received_message:479] Shard ID None session has been invalidated.
+[2021-11-17 14:32:42,767] INFO [discord.client.connect:568] Got a request to IDENTIFY the websocket.
+[2021-11-17 14:32:48,005] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-11-17 14:32:48,332] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-mfw1",{"micros":143986,"calls":["discord-sessions-green-prd-2-166",{"micros":139791,"calls":["start_session",{"micros":79681,"calls":["api-prd-main-989x",{"micros":75601,"calls":["get_user",{"micros":9198},"add_authorized_ip",{"micros":3117},"get_guilds",{"micros":6234},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":24376,"calls":[]}]}]}] (Session ID: a58a683080552e3087a0f0a523082549).
+[2021-11-17 14:32:50,354] INFO [root.on_ready:15] Logged in as 决 篮后
