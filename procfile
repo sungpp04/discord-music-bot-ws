@@ -1,1 +1,1 @@
-worker: python -m mb
+worker: python bot.py
