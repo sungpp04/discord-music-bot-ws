@@ -1,6 +1,0 @@
-asyncio
-PyNaCl>=1.4.0
-discord.py[voice]>=1.2.5
-pip
-youtube_dl
-toml
